@@ -121,8 +121,7 @@ public class Ejecutor {
                 ciudad, tipo, marca, valor);
         preAuto.calcularCostoMensual();
         System.out.println("------------------------------------------------");
-        cadena = String.format("Datos beneficiario%s\n%s\n"
-                + "hola ecuador", cadena, preAuto);
+        cadena = String.format("%s\n%s\n", cadena, preAuto);
         return cadena;
 
     }
